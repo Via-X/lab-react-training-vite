@@ -1,0 +1,29 @@
+.ccBox {
+  diplay: flex;
+  background-color: green;
+  justify-content: left;
+  border-radius: 10px;
+  height: 15vw;
+  width: 28vw;
+  padding: 0vw 2vw 1vw 2vw;
+  margin: 1vw;
+}
+
+.ccBox > h3 {
+  text-align: right;
+}
+
+.ccBox > h6 {
+  text-align: left;
+}
+
+#BNP {
+background-color: rgb(4, 168, 151);
+color: white;
+}
+
+#N26 {
+background-color: beige;
+}
+
+

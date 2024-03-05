@@ -36,3 +36,165 @@
     transform: rotate(360deg);
   }
 }
+
+.creditCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  /* height: 20vw; */
+  /* margin: .5vw;
+  padding: .5vw;  */
+
+
+}
+
+.creditCards > :last-child {
+  background-color: rgb(215, 192, 62);
+  color: white;
+}
+
+.driverCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 16vw;
+  padding: 2vw;
+  margin: 2vw;
+}
+
+.dice > img {
+  height: 10vw;
+}
+
+.numbersTable {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+}
+
+.numberblock {
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
+  width: 60px;
+  height: 60px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.idCard {
+  display: flex;
+  border-color: black;
+  border-style: solid;
+  margin: 2vw;
+}
+
+.idImg {
+  padding: 2vw;
+  height: 20vw;
+}
+
+.idDetails {
+  text-align: left;
+}
+
+.profileBlock {
+  display: flex;
+  border-color: black;
+  border-style: solid;
+  margin: 2vw;
+}
+
+/* .profileImg {
+  height: 5vw;
+} */
+
+.profileDetails {
+  justify-content: left;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.signupbutton {
+  background-color: #61dafb;
+  color: white;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: #61dafb;
+  height: 5vw;
+  width: 10vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+
+}
+
+.redBox {
+  display: flex;
+  height: 10vw;
+  width: 10vw;
+  border-color: black;
+  border-style: solid;
+  margin-bottom: 2vw;
+}
+
+.blueBox {
+  display: flex;
+  height: 10vw;
+  width: 10vw;
+  border-color: black;
+  border-style: solid;
+  margin-bottom: 2vw;
+}
+
+.greenBox {
+  display: flex;
+  height: 10vw;
+  width: 10vw;
+  border-color: black;
+  border-style: solid;
+  margin-bottom: 2vw;
+}
+
+.rgbBox {
+  display: flex;
+  height: 10vw;
+  width: 10vw;
+  border-color: black;
+  border-style: solid;
+
+}
+
+
+
+.rgbcontainer {
+  display: flex;
+}
+.r {
+padding: 4vw;
+font-weight: bold;
+
+}
+
+.g {
+padding: 3vw;
+font-weight: bold;
+}
+
+.b {
+padding: 4vw;
+font-weight: bold;
+}
+.rgb {
+  padding-top: 8vw;
+  font-weight: bold;
+}
+
+.rgbinput {
+  height: 3vw;
+}
